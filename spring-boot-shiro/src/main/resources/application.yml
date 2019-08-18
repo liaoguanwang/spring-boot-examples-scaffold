@@ -1,0 +1,10 @@
+#日志级别
+logging:
+#  config: classpath:logback-spring.xml
+  level.*: info
+debug: true
+#    root: warn
+#    org.apache: error
+#    org.springframework.* : error
+#    org.springframework.web: error
+
