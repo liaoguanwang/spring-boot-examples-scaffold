@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-examples.iml" filepath="$PROJECT_DIR$/spring-boot-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-pagehelper/spring-boot-mybatis-pagehelper.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-pagehelper/spring-boot-mybatis-pagehelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-scaffold.iml" filepath="$PROJECT_DIR$/spring-boot-scaffold.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-shiro/spring-boot-shiro.iml" filepath="$PROJECT_DIR$/spring-boot-shiro/spring-boot-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-websocket/spring-boot-websocket.iml" filepath="$PROJECT_DIR$/spring-boot-websocket/spring-boot-websocket.iml" />
     </modules>
   </component>
 </project>

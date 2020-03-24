@@ -4,10 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.liao.scaffold</groupId>
-    <artifactId>spring-boot-examples</artifactId>
+    <groupId>com.csliao</groupId>
+    <artifactId>spring-boot-scaffold</artifactId>
     <packaging>pom</packaging>
     <version>2.0.0</version>
+
+    <modules>
+        <module>spring-boot-shiro</module>
+        <module>spring-boot-websocket</module>
+    </modules>
 
     <build>
         <plugins>
@@ -22,8 +27,4 @@
             </plugin>
         </plugins>
     </build>
-    <modules>
-        <module>spring-boot-shiro</module>
-    </modules>
-
 </project>

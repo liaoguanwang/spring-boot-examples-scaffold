@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  thymeleaf:
+    cache: false #是否启用模板缓存
+    enabled: true #是否为Web框架启用Thymeleaf视图解析
+    enable-spring-el-compiler: true #在SpringEL表达式中启用SpringEL编译器
+    encoding: UTF-8 #模板文件编码
+    mode: HTML5 #要应用于模板的模板模式。另请参见Thymeleaf的TemplateMode枚举。
+    prefix: classpath:/static/
+    suffix: .html
+    servlet:
+      content-type: text/html
+

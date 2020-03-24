@@ -6,11 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-examples-scaffold" />
+        <module name="spring-boot-mybatis-pagehelper" />
+        <module name="spring-boot-shiro" />
+        <module name="spring-boot-websocket" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring-boot-examples-scaffold" target="1.5" />
+      <module name="spring-boot-mybatis-pagehelper" target="1.8" />
+      <module name="spring-boot-scaffold" target="1.8" />
+      <module name="spring-boot-shiro" target="1.8" />
+      <module name="spring-boot-websocket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
